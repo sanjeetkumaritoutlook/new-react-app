@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import {useEffect, useState } from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import {useState } from "react";
+//import {Col, Container, Row} from "react-bootstrap";
 import Header from './components/Header';
-import React, {Component} from 'react';
+import React from 'react';
 
 function App() {
   // const [input, setInput] = useState("");
-  const [input, setInput] = useState("");
+  //const [input, setInput] = useState("");
   const [count, setCount] = useState(0);
   const incrementCount = () => setCount(count + 1);
   return (
