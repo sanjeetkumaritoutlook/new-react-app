@@ -1,10 +1,9 @@
 //import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import {useState } from "react";
 //import {Col, Container, Row} from "react-bootstrap";
 import Header from './components/Header';
-import React from 'react';
-
 function App() {
   // const [input, setInput] = useState("");
   //const [input, setInput] = useState("");

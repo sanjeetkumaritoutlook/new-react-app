@@ -1,6 +1,6 @@
 //import * as React from 'react';
 import React from 'react';
-
+import Navigation from './Navigation';
 import { useState } from "react";
 
  function Header() {
@@ -29,6 +29,7 @@ function ChildComponentOne({ count }) {
     <div>
       <h2>This is a child component.</h2>
       <h4>Count: {count}</h4>
+      <Navigation />
     </div>
   );
 }
