@@ -6,7 +6,7 @@ import { useCustomElementRef, fluid } from './../fluid';  // Replaced by @lmig/f
 function FluidTable() {
     // ---- Initialise FLUID
   let env = fluid.environments.external;
-  useEffect(() => fluid.init(env), []);
+  useEffect(() => fluid.init(env));
   // ---- Start Building
 
   const actionClicked = (event) => {
