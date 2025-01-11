@@ -221,7 +221,12 @@ function FluidTable() {
       tableActions: [
         {
           actionKey: 'exportToExcel',
+          pageExport: false,
           identifier: 'exportToExcelAnalyticsKey',
+          actionConfig: {
+            actionKey: 'exportTableData',
+          },
+          fileName: 'my-export-default',
           buttonConfig: {
             label: 'Export to Excel',
             iconBefore: {
