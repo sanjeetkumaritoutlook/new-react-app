@@ -6,6 +6,7 @@ import ReactMUI from './ReactMUI';
 import ReactBootstrap from './ReactBootstrap';
 import NormalBootstrap from './NormalBootstrap';
 import FluidTable from './FluidTable';
+import Container from './Container';
 function Navigation() {
     return (
         <div>
@@ -28,6 +29,9 @@ function Navigation() {
                         <li>
                             <Link to="/fluid-table">FLUID Table</Link>
                         </li>   
+                        <li>
+                            <Link to="/parent-child">Forward Ref</Link>
+                        </li>   
                     </ul>
                 </nav>
                 <Routes>
@@ -36,6 +40,7 @@ function Navigation() {
                     <Route path="/react-bootstrap" element={<ReactBootstrap />} />
                     <Route path="/normal-bootstrap" element={<NormalBootstrap />} />
                     <Route path="/fluid-table" element={<FluidTable />} />
+                    <Route path="/parent-child" element={<Container />} />
                 </Routes>
             </Router>
         </div>
