@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Chinese Design system
+(below working)
+
+npm install air-components
+
+
+https://www.npmjs.com/package/@aircomponents/components
+
+
+
+(below not workign)
+
+npm install @airdesign/ui
+
+https://www.npmjs.com/package/@airdesign/ui/v/0.0.17
+
+https://air.js.org/docs/feature-components/chat
+
+
 ## Available Scripts
 
 In the project directory, you can run:

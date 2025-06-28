@@ -4,6 +4,7 @@ import './App.css';
 import {useState } from "react";
 //import {Col, Container, Row} from "react-bootstrap";
 import Header from './components/Header';
+import  ChineseDS  from './components/ChineseDS';
 function App() {
   // const [input, setInput] = useState("");
   //const [input, setInput] = useState("");
@@ -17,6 +18,7 @@ function App() {
        <FormInput />
       <ChildComponent count={count} onClick={incrementCount}  />
       <Header />
+      <ChineseDS/>
     </div>
     // <div className="App">
     //   <header className="App-header">
