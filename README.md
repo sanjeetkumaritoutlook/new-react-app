@@ -2,6 +2,33 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## use it in another React app
+npm i galaxy-explorer-react
+
+```
+import React from 'react';
+import GalaxyExplorer from 'galaxy-explorer-react';
+
+function App() {
+  return (
+    <div>
+      <GalaxyExplorer />
+    </div>
+  );
+}
+
+```
+## To publish React library to npm registry 
+install plugins
+
+npm install --save-dev rollup @rollup/plugin-babel @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-postcss @babel/preset-react @babel/core
+
+
+npm install --save-dev @babel/core @babel/preset-react @babel/preset-env rollup @rollup/plugin-babel @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-postcss
+
+npm install --save-dev @babel/preset-env
+
+
 ## Chinese Design system
 (below working)
 
