@@ -1,0 +1,33 @@
+.galaxy {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background: radial-gradient(circle, #000428, #004e92);
+  height: 300px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.orbit {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.planet {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.planet:hover {
+  transform: scale(1.4);
+}
+
+.trivia {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 8px;
+}

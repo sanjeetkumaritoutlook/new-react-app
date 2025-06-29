@@ -5,6 +5,7 @@ import {useState } from "react";
 //import {Col, Container, Row} from "react-bootstrap";
 import Header from './components/Header';
 import  ChineseDS  from './components/ChineseDS';
+import GalaxyExplorer from './components/GalaxyExplorer';
 function App() {
   // const [input, setInput] = useState("");
   //const [input, setInput] = useState("");
@@ -19,6 +20,7 @@ function App() {
       <ChildComponent count={count} onClick={incrementCount}  />
       <Header />
       <ChineseDS/>
+      <GalaxyExplorer />
     </div>
     // <div className="App">
     //   <header className="App-header">
