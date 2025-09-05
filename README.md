@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Log in between jsx
+{(console.log(whatever), null)}
+{console.log('yeah') ?? null}
+{ void console.log('void rocks') }
+
+
 ## use it in another React app
 npm i galaxy-explorer-react
 
