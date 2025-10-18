@@ -4,7 +4,7 @@ import './App.css';
 import {useState } from "react";
 //import {Col, Container, Row} from "react-bootstrap";
 import Header from './components/Header';
-import  ChineseDS  from './components/ChineseDS';
+import ChineseDS  from './components/ChineseDS';
 import GalaxyExplorer from './components/GalaxyExplorer';
 function App() {
   // const [input, setInput] = useState("");
